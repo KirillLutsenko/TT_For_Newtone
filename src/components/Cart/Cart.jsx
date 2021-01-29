@@ -3,7 +3,7 @@ import { cartType } from '../../types';
 import { CartItem } from '../CartItem';
 import './Cart.scss';
 
-export const Cart = ({ cartItems, clearCart }) => (
+export const Cart = ({ cartItems, clearCart, deleteFromCart, addToCart }) => (
   <div className="cart-block__cart cart">
     <div className="cart__header">
       {
@@ -19,9 +19,10 @@ export const Cart = ({ cartItems, clearCart }) => (
       <ul className="cart__cart-list cart-list">
         {cartItems.map(item => (
           <CartItem
-            id={item.id}
-            name={item.name}
-            total={item.total}
+            item={item}
+            deleteFromCart={deleteFromCart}
+            addToCart={addToCart}
+            key={item.id}
           />
         ))}
       </ul>

@@ -1,4 +1,49 @@
+@import "../../styles/vars.scss";
+
 .cart-item {
-  text-align: start;
-  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  width: 175px;
+  margin: 0 20px;
+
+  &__cart-product-name {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  &__button--add {
+    right: 40px;
+  }
+
+  &__button--delete {
+    right: 20px;
+  }
+
+  &__button--add,
+  &__button--delete {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid $second-color;
+    background-color: white;
+    color: $second-color;
+    cursor: pointer;
+    transition: $hover-transition;
+
+    &:hover {
+      background-color: $second-color;
+      color: white;
+    }
+
+    &:focus {
+      outline: 1px ridge rgba(0, 0, 0, 0.6);
+      border-radius: 0;
+    }
+  }
 }

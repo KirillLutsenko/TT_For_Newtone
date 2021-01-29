@@ -20,13 +20,13 @@ class App extends React.Component {
   state = {
     products: productsFromServer,
     cartItems: [],
-    cartVisible: false,
+    cartVisible: true,
   }
-
+  /* eslint-disable */
   addToCart = (product) => {
     const { cartItems } = this.state;
     let alreadyInCart = false;
-    /* eslint-disable */
+
     cartItems.forEach((cartItem) => {
       if (cartItem.id === product.id) {
         if (((cartItem.count + 1) % 3) === 0) {
@@ -39,7 +39,6 @@ class App extends React.Component {
           cartItem.total += +cartItem.price;
         }
       }
-      /* eslint-enable */
     });
 
     if (!alreadyInCart) {
@@ -52,6 +51,35 @@ class App extends React.Component {
 
     this.setState({ cartItems });
   }
+
+  deleteFromCart = (product) => {
+    const { cartItems } = this.state;
+
+    
+    cartItems.forEach((cartItem, index) => {
+      if (cartItem.id === product.id) {
+        if (((+cartItem.count + 1) % 3) === 0) {
+          cartItem.count -= 1;
+          cartItem.total -= +cartItem.price / 2;
+        } else {
+          cartItem.count -= 1;
+          cartItem.total -= +cartItem.price;
+        }
+      }
+      
+
+      if (cartItem.count === 1) {
+        cartItem.total = +cartItem.price;
+      }
+
+      if (cartItem.count === 0) {
+        cartItems.splice(index, 1);
+      }
+    });
+
+    this.setState({ cartItems });
+  }
+  /* eslint-enable */
 
   clearCart = () => {
     this.setState({
@@ -88,7 +116,14 @@ class App extends React.Component {
             />
 
             {(this.state.cartVisible)
-              ? (<Cart cartItems={cartItems} clearCart={clearCart} />)
+              ? (
+                <Cart
+                  cartItems={cartItems}
+                  clearCart={clearCart}
+                  deleteFromCart={this.deleteFromCart}
+                  addToCart={this.addToCart}
+                />
+              )
               : <></>}
           </div>
         </div>

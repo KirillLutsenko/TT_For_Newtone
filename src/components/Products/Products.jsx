@@ -7,6 +7,7 @@ export const Products = ({ addToCart, products }) => (
   <ul className="content__list list">
     {products.map(product => (
       <Product
+        key={product.id}
         product={product}
         addToCart={addToCart}
       />
