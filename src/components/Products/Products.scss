@@ -12,28 +12,3 @@
     margin: 0 10px 10px;
   }
 }
-
-.product {
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
-  cursor: pointer;
-  transition: $hover-transition;
-
-  &__button {
-    margin: 0 20px 15px;
-  }
-
-  &__name {
-    text-align: center;
-    margin: 5px 20px;
-    padding: 10px 0 5px;
-    max-width: 150px;
-    font-weight: 700;
-    border-bottom: 1px solid $second-color;
-  }
-
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: $box-shadow-hover;
-  }
-}

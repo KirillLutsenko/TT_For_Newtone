@@ -1,5 +1,6 @@
 import React from 'react';
 import { cartType } from '../../types';
+import { CartItem } from '../CartItem';
 import './Cart.scss';
 
 export const Cart = ({ cartItems, clearCart }) => (
@@ -17,11 +18,11 @@ export const Cart = ({ cartItems, clearCart }) => (
     <div className="cart__body">
       <ul className="cart__cart-list cart-list">
         {cartItems.map(item => (
-          <li key={item.id} className="cart-list__cart-item cart-item">
-            <p className="cart__cart-product-name">
-              {`${item.name}: $ ${+item.total}`}
-            </p>
-          </li>
+          <CartItem
+            id={item.id}
+            name={item.name}
+            total={item.total}
+          />
         ))}
       </ul>
     </div>

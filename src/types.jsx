@@ -1,17 +1,16 @@
 import PropTypes from 'prop-types';
 
-const cartItemsType = PropTypes.arrayOf(PropTypes.shape({
-  name: PropTypes.string.isRequired,
-  price: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
-  count: PropTypes.string.isRequired,
-}));
-
-const productType = PropTypes.shape({
+export const productType = PropTypes.shape({
   price: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
 });
+
+export const cartItemsType = PropTypes.arrayOf(PropTypes.shape({
+  name: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+  total: PropTypes.number.isRequired,
+}));
 
 export const cartType = PropTypes.shape({
   cartItems: cartItemsType.isRequired,

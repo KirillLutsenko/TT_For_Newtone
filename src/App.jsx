@@ -26,15 +26,20 @@ class App extends React.Component {
   addToCart = (product) => {
     const { cartItems } = this.state;
     let alreadyInCart = false;
-
+    /* eslint-disable */
     cartItems.forEach((cartItem) => {
       if (cartItem.id === product.id) {
-        /* eslint-disable */
-        cartItem.count += 1;
-        alreadyInCart = true;
-        cartItem.total = cartItem.count * cartItem.price;
-        /* eslint-enable */
+        if (((cartItem.count + 1) % 3) === 0) {
+          cartItem.count += 1;
+          alreadyInCart = true;
+          cartItem.total += +cartItem.price / 2;
+        } else {
+          cartItem.count += 1;
+          alreadyInCart = true;
+          cartItem.total += +cartItem.price;
+        }
       }
+      /* eslint-enable */
     });
 
     if (!alreadyInCart) {
