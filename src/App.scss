@@ -1,0 +1,41 @@
+@import "./styles/vars.scss";
+
+.app {
+  text-align: center;
+  height: 100vh;
+
+  &__title {
+    margin: 50px 0 40px;
+    width: 400px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    border-bottom: 1px solid $second-color;
+  }
+
+  &__content {
+    width: 400px;
+  }
+
+  &__cart-block {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  border: 1px solid $second-color;
+  border-radius: $border-radius;
+  background-color: white;
+  color: $second-color;
+  cursor: pointer;
+  transition: $hover-transition;
+
+  &:hover {
+    background-color: $second-color;
+    color: white;
+  }
+}

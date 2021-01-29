@@ -1,0 +1,42 @@
+@import "../../styles/vars.scss";
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+
+  &__product {
+    margin: 0 10px 10px;
+  }
+}
+
+.product {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  cursor: pointer;
+  transition: $hover-transition;
+
+  &__button {
+    margin: 0 20px 15px;
+  }
+
+  &__name {
+    text-align: center;
+    margin: 5px 20px;
+    padding: 10px 0 5px;
+    max-width: 150px;
+    font-weight: 700;
+    border-bottom: 1px solid $second-color;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 1px 4px rgb(15, 131, 25),
+      -23px 0 20px -23px rgba(11, 95, 42, 0.8),
+      23px 0 20px -23px rgba(8, 128, 18, 0.8),
+      0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+}
