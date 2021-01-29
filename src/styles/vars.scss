@@ -3,5 +3,11 @@ $box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
   -23px 0 20px -23px rgba(0, 0, 0, 0.8),
   23px 0 20px -23px rgba(0, 0, 0, 0.8),
   0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+$box-shadow-hover: 0 1px 4px rgb(15, 131, 25),
+  -23px 0 20px -23px rgba(11, 95, 42, 0.8),
+  23px 0 20px -23px rgba(8, 128, 18, 0.8),
+  0 0 40px rgba(0, 0, 0, 0.1) inset;
+
 $second-color: rgb(31, 126, 31);
 $hover-transition: all 0.3s ease;

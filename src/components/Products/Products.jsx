@@ -1,6 +1,6 @@
 import React from 'react';
 import { productsType } from '../../types';
-import './Product.scss';
+import './Products.scss';
 
 export const Products = ({ addToCart, products }) => (
   <div>

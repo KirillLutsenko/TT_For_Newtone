@@ -6,9 +6,9 @@ Demo link you can find [HERE](https://KirillLutsenko.github.io/TT_For_Newtone/)
 
  - Implement a list of goods:
 
-    *Banana - $ 10*
-    *Apple - $ 8*
-    *Papaya - $ 10*
+    *Banana - $ 10*, 
+    *Apple - $ 8*, 
+    *Papaya - $ 10*, 
 
  - Implement the ability to add to cart
 

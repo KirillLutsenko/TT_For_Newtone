@@ -16,10 +16,19 @@
       cursor: pointer;
       box-shadow: $box-shadow;
     }
+  }
 
-    &:focus {
-      outline: none;
-    }
+  &__name {
+    text-align: center;
+    margin: 5px 20px;
+    padding: 10px 0 5px;
+    max-width: 150px;
+    font-weight: 700;
+    border-bottom: 1px solid $second-color;
+  }
+
+  &:focus {
+    outline: none;
   }
 }
 
@@ -31,6 +40,15 @@
   box-shadow: $box-shadow;
   transition: $hover-transition;
   cursor: pointer;
+
+  &__cart-product-name {
+    text-align: start;
+    margin: 5px 20px;
+    padding: 10px 0 5px;
+    max-width: 100px;
+    font-weight: 700;
+    border-bottom: 1px solid $second-color;
+  }
 
   &__cart-list {
     list-style-type: none;
@@ -48,30 +66,18 @@
 
   &__total {
     position: absolute;
-    bottom: 40px;
-    right: 19px;
+    bottom: 43px;
+    right: 24px;
   }
 
   &__menu {
     position: absolute;
-    bottom: 15px;
+    bottom: 10px;
     right: 18px;
   }
 
   &:hover {
     transform: scale(1.05);
-    box-shadow: 0 1px 4px rgb(15, 131, 25),
-      -23px 0 20px -23px rgba(11, 95, 42, 0.8),
-      23px 0 20px -23px rgba(8, 128, 18, 0.8),
-      0 0 40px rgba(0, 0, 0, 0.1) inset;;
+    box-shadow: $box-shadow-hover;
   }
 }
-
-.menu {
-  &__button {
-    font-size: 12px;
-    width: 75px;
-    height: 20px;
-  }
-}
-

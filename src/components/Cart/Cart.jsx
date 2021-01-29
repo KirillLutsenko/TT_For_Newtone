@@ -17,9 +17,9 @@ export const Cart = ({ cartItems, clearCart }) => (
     <div className="cart__body">
       <ul className="cart__cart-list cart-list">
         {cartItems.map(item => (
-          <li className="cart-list__cart-item cart-item" key={item.id}>
-            <p className="product__name name">
-              {`${item.name}: $ ${+item.price * item.count}`}
+          <li key={item.id} className="cart-list__cart-item cart-item">
+            <p className="cart__cart-product-name">
+              {`${item.name}: $ ${+item.total}`}
             </p>
           </li>
         ))}
@@ -28,7 +28,7 @@ export const Cart = ({ cartItems, clearCart }) => (
 
     <div className="cart__total">
       { ` Total: $
-        ${cartItems.reduce((acc, cur) => acc + (cur.price * cur.count), 0)}
+        ${cartItems.reduce((acc, cur) => acc + cur.total, 0)}
       `}
     </div>
 

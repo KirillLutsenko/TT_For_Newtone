@@ -29,15 +29,19 @@ class App extends React.Component {
 
     cartItems.forEach((cartItem) => {
       if (cartItem.id === product.id) {
-        // eslint-disable-next-line no-param-reassign
+        /* eslint-disable */
         cartItem.count += 1;
         alreadyInCart = true;
+        cartItem.total = cartItem.count * cartItem.price;
+        /* eslint-enable */
       }
     });
+
     if (!alreadyInCart) {
       cartItems.push({
         ...product,
         count: 1,
+        total: +product.price,
       });
     }
 
@@ -47,7 +51,6 @@ class App extends React.Component {
   clearCart = () => {
     this.setState({
       cartItems: [],
-      cartVisible: false,
     });
   }
 
@@ -61,6 +64,7 @@ class App extends React.Component {
 
   render() {
     const { products, cartItems } = this.state;
+    const { addToCart, getCartVisible, clearCart } = this;
 
     return (
       <div className="app">
@@ -68,18 +72,18 @@ class App extends React.Component {
         <div className="app__content content">
           <Products
             products={products}
-            addToCart={this.addToCart}
+            addToCart={addToCart}
           />
 
           <div className="app__cart-block cart-block">
             <button
               type="button"
-              onClick={this.getCartVisible}
+              onClick={getCartVisible}
               className="cart-block__button"
             />
 
             {(this.state.cartVisible)
-              ? (<Cart cartItems={cartItems} clearCart={this.clearCart} />)
+              ? (<Cart cartItems={cartItems} clearCart={clearCart} />)
               : <></>}
           </div>
         </div>
