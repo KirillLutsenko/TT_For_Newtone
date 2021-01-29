@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TT_For_Newtone/static/css/main.a0caafa8.chunk.css",
+    "main.js": "/TT_For_Newtone/static/js/main.90050ceb.chunk.js",
+    "main.js.map": "/TT_For_Newtone/static/js/main.90050ceb.chunk.js.map",
+    "runtime-main.js": "/TT_For_Newtone/static/js/runtime-main.90bfa7c3.js",
+    "runtime-main.js.map": "/TT_For_Newtone/static/js/runtime-main.90bfa7c3.js.map",
+    "static/js/2.3ed178a2.chunk.js": "/TT_For_Newtone/static/js/2.3ed178a2.chunk.js",
+    "static/js/2.3ed178a2.chunk.js.map": "/TT_For_Newtone/static/js/2.3ed178a2.chunk.js.map",
+    "index.html": "/TT_For_Newtone/index.html",
+    "precache-manifest.ba808f86c6eedd0fa226ea0855e174f6.js": "/TT_For_Newtone/precache-manifest.ba808f86c6eedd0fa226ea0855e174f6.js",
+    "service-worker.js": "/TT_For_Newtone/service-worker.js",
+    "static/css/main.a0caafa8.chunk.css.map": "/TT_For_Newtone/static/css/main.a0caafa8.chunk.css.map",
+    "static/js/2.3ed178a2.chunk.js.LICENSE.txt": "/TT_For_Newtone/static/js/2.3ed178a2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90bfa7c3.js",
+    "static/js/2.3ed178a2.chunk.js",
+    "static/css/main.a0caafa8.chunk.css",
+    "static/js/main.90050ceb.chunk.js"
+  ]
+}
