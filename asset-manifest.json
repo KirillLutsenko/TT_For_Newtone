@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/TT_For_Newtone/static/css/main.1f129e2a.chunk.css",
-    "main.js": "/TT_For_Newtone/static/js/main.c405b7e9.chunk.js",
-    "main.js.map": "/TT_For_Newtone/static/js/main.c405b7e9.chunk.js.map",
+    "main.css": "/TT_For_Newtone/static/css/main.c98da889.chunk.css",
+    "main.js": "/TT_For_Newtone/static/js/main.9a199dd6.chunk.js",
+    "main.js.map": "/TT_For_Newtone/static/js/main.9a199dd6.chunk.js.map",
     "runtime-main.js": "/TT_For_Newtone/static/js/runtime-main.90bfa7c3.js",
     "runtime-main.js.map": "/TT_For_Newtone/static/js/runtime-main.90bfa7c3.js.map",
     "static/js/2.624bab92.chunk.js": "/TT_For_Newtone/static/js/2.624bab92.chunk.js",
     "static/js/2.624bab92.chunk.js.map": "/TT_For_Newtone/static/js/2.624bab92.chunk.js.map",
     "index.html": "/TT_For_Newtone/index.html",
-    "precache-manifest.c2ef4683d5e6b1a00fa77ff583f508cf.js": "/TT_For_Newtone/precache-manifest.c2ef4683d5e6b1a00fa77ff583f508cf.js",
+    "precache-manifest.16ae3986bab77e986fa99d28ce4927fc.js": "/TT_For_Newtone/precache-manifest.16ae3986bab77e986fa99d28ce4927fc.js",
     "service-worker.js": "/TT_For_Newtone/service-worker.js",
-    "static/css/main.1f129e2a.chunk.css.map": "/TT_For_Newtone/static/css/main.1f129e2a.chunk.css.map",
+    "static/css/main.c98da889.chunk.css.map": "/TT_For_Newtone/static/css/main.c98da889.chunk.css.map",
     "static/js/2.624bab92.chunk.js.LICENSE.txt": "/TT_For_Newtone/static/js/2.624bab92.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.90bfa7c3.js",
     "static/js/2.624bab92.chunk.js",
-    "static/css/main.1f129e2a.chunk.css",
-    "static/js/main.c405b7e9.chunk.js"
+    "static/css/main.c98da889.chunk.css",
+    "static/js/main.9a199dd6.chunk.js"
   ]
 }
