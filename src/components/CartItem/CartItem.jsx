@@ -7,20 +7,22 @@ export const CartItem = ({ item, deleteFromCart, addToCart }) => (
     <p className="cart-item__cart-product-name">
       {`${item.name}: ${item.count} kg -  $ ${+item.total}`}
     </p>
-    <button
-      type="button"
-      className="cart-item__button--add"
-      onClick={() => addToCart(item)}
-    >
-      +
-    </button>
-    <button
-      type="button"
-      className="cart-item__button--delete"
-      onClick={() => deleteFromCart(item)}
-    >
-      -
-    </button>
+    <div className="cart-item__buttons">
+      <button
+        type="button"
+        className="cart-item__button--add"
+        onClick={() => addToCart(item)}
+      >
+        +
+      </button>
+      <button
+        type="button"
+        className="cart-item__button--delete"
+        onClick={() => deleteFromCart(item)}
+      >
+        -
+      </button>
+    </div>
   </li>
 );
 
