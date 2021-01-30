@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TT_For_Newtone/static/css/main.831b4044.chunk.css",
+    "main.css": "/TT_For_Newtone/static/css/main.19608eda.chunk.css",
     "main.js": "/TT_For_Newtone/static/js/main.4ab78ab5.chunk.js",
     "main.js.map": "/TT_For_Newtone/static/js/main.4ab78ab5.chunk.js.map",
     "runtime-main.js": "/TT_For_Newtone/static/js/runtime-main.90bfa7c3.js",
@@ -8,15 +8,15 @@
     "static/js/2.624bab92.chunk.js": "/TT_For_Newtone/static/js/2.624bab92.chunk.js",
     "static/js/2.624bab92.chunk.js.map": "/TT_For_Newtone/static/js/2.624bab92.chunk.js.map",
     "index.html": "/TT_For_Newtone/index.html",
-    "precache-manifest.c2bbaf738fcb21f0a5bf4be0554a11c9.js": "/TT_For_Newtone/precache-manifest.c2bbaf738fcb21f0a5bf4be0554a11c9.js",
+    "precache-manifest.920568b237d4fdc6e0a01deedbb3354c.js": "/TT_For_Newtone/precache-manifest.920568b237d4fdc6e0a01deedbb3354c.js",
     "service-worker.js": "/TT_For_Newtone/service-worker.js",
-    "static/css/main.831b4044.chunk.css.map": "/TT_For_Newtone/static/css/main.831b4044.chunk.css.map",
+    "static/css/main.19608eda.chunk.css.map": "/TT_For_Newtone/static/css/main.19608eda.chunk.css.map",
     "static/js/2.624bab92.chunk.js.LICENSE.txt": "/TT_For_Newtone/static/js/2.624bab92.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.90bfa7c3.js",
     "static/js/2.624bab92.chunk.js",
-    "static/css/main.831b4044.chunk.css",
+    "static/css/main.19608eda.chunk.css",
     "static/js/main.4ab78ab5.chunk.js"
   ]
 }
