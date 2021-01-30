@@ -20,7 +20,7 @@ class App extends React.Component {
   state = {
     products: productsFromServer,
     cartItems: [],
-    cartVisible: true,
+    cartVisible: false,
   }
   /* eslint-disable */
   addToCart = (product) => {
