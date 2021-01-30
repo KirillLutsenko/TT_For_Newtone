@@ -27,8 +27,8 @@
     justify-content: center;
     margin-right: 5px;
     font-size: 10px;
-    width: 15px;
-    height: 15px;
+    max-width: 15px;
+    max-height: 15px;
     border-radius: 50%;
     border: 2px solid $second-color;
     background-color: white;
