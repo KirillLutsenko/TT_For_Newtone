@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TT_For_Newtone/precache-manifest.3d96a2d8dae702206ce272dcdc033e14.js"
+  "/TT_For_Newtone/precache-manifest.421613e8c89b9eee27113c6c6c909fad.js"
 );
 
 self.addEventListener('message', (event) => {

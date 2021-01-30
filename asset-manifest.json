@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TT_For_Newtone/static/css/main.8d6569da.chunk.css",
-    "main.js": "/TT_For_Newtone/static/js/main.5d11fad8.chunk.js",
-    "main.js.map": "/TT_For_Newtone/static/js/main.5d11fad8.chunk.js.map",
+    "main.js": "/TT_For_Newtone/static/js/main.4ab78ab5.chunk.js",
+    "main.js.map": "/TT_For_Newtone/static/js/main.4ab78ab5.chunk.js.map",
     "runtime-main.js": "/TT_For_Newtone/static/js/runtime-main.90bfa7c3.js",
     "runtime-main.js.map": "/TT_For_Newtone/static/js/runtime-main.90bfa7c3.js.map",
     "static/js/2.624bab92.chunk.js": "/TT_For_Newtone/static/js/2.624bab92.chunk.js",
     "static/js/2.624bab92.chunk.js.map": "/TT_For_Newtone/static/js/2.624bab92.chunk.js.map",
     "index.html": "/TT_For_Newtone/index.html",
-    "precache-manifest.3d96a2d8dae702206ce272dcdc033e14.js": "/TT_For_Newtone/precache-manifest.3d96a2d8dae702206ce272dcdc033e14.js",
+    "precache-manifest.421613e8c89b9eee27113c6c6c909fad.js": "/TT_For_Newtone/precache-manifest.421613e8c89b9eee27113c6c6c909fad.js",
     "service-worker.js": "/TT_For_Newtone/service-worker.js",
     "static/css/main.8d6569da.chunk.css.map": "/TT_For_Newtone/static/css/main.8d6569da.chunk.css.map",
     "static/js/2.624bab92.chunk.js.LICENSE.txt": "/TT_For_Newtone/static/js/2.624bab92.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.90bfa7c3.js",
     "static/js/2.624bab92.chunk.js",
     "static/css/main.8d6569da.chunk.css",
-    "static/js/main.5d11fad8.chunk.js"
+    "static/js/main.4ab78ab5.chunk.js"
   ]
 }
