@@ -3,18 +3,14 @@
 .app {
   text-align: center;
   height: 100vh;
+  width: 400px;
 
   &__title {
     margin: 50px 0 40px;
-    width: 400px;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 32px;
     border-bottom: 1px solid $second-color;
-  }
-
-  &__content {
-    width: 400px;
   }
 
   &__cart-block {
@@ -43,5 +39,22 @@
   &:focus {
     outline: 1px ridge rgba(0, 0, 0, 0.6);
     border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .app {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .app {
+    margin-left: 30px;
+    width: 200px;
+
+    &__title {
+      font-size: 24px;
+    }
   }
 }
