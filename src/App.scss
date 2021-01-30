@@ -21,9 +21,8 @@
 }
 
 .button {
-  max-width: 100px;
+  width: 100px;
   height: 30px;
-  font-size: 14px;
   border: 2px solid $second-color;
   border-radius: $border-radius;
   background-color: white;
@@ -56,11 +55,5 @@
     &__title {
       font-size: 24px;
     }
-  }
-}
-
-@media screen and (max-width: 685px) {
-  .button {
-    font-size: 10px;
   }
 }
