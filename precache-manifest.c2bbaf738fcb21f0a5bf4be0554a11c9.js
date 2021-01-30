@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f425f949fc499b4e273a9e3d786b0f8",
+    "revision": "3ab6fd9ccaa13fa16cb47dd2740ded0d",
     "url": "/TT_For_Newtone/index.html"
   },
   {
-    "revision": "83843121760100f9753c",
-    "url": "/TT_For_Newtone/static/css/main.8d6569da.chunk.css"
+    "revision": "e7fe8564888d5eb9f161",
+    "url": "/TT_For_Newtone/static/css/main.831b4044.chunk.css"
   },
   {
     "revision": "7bc30aa9266ed9c94696",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TT_For_Newtone/static/js/2.624bab92.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83843121760100f9753c",
+    "revision": "e7fe8564888d5eb9f161",
     "url": "/TT_For_Newtone/static/js/main.4ab78ab5.chunk.js"
   },
   {
